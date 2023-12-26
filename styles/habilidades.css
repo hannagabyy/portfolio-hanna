@@ -1,0 +1,30 @@
+.habilidades{
+   width: 100vw;
+   text-align: center;
+}
+.titulo__habilidades{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 3rem 0;
+
+}
+.lista-habilidades__titulo{
+    background-color: var(--cor-roxa);
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 2rem;
+
+}
+.display__flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto 3rem;
+}
+.lista-habilidades__item{
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+}

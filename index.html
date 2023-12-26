@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
     <title>Portfolio - Hanna Santos</title>
 </head>
 
@@ -23,18 +24,18 @@
         </div>
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu" class="container__rotulo">
+            <label for="menu" id="menu-label"  class="container__rotulo">
                 <span class="cabeçalho__menu-hamburguer container__imagem"></span>
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu-item">
-                    <a href="#" class="lista-menu__link">Sobre mim</a>
+                    <a href="#sobre-mim" class="lista-menu__link">Sobre mim</a>
                 </li>
                 <li class="lista-menu-item">
-                    <a href="#" class="lista-menu__link">Habilidades</a>
+                    <a href="#habilidades" class="lista-menu__link">Habilidades</a>
                 </li>
                 <li class="lista-menu-item">
-                    <a href="#" class="lista-menu__link">Projetos</a>
+                    <a href="#projetos" class="lista-menu__link">Projetos</a>
                 </li>
 
             </ul>
@@ -42,8 +43,63 @@
 
 
     </header>
-   
 
+    <main>
+        <section class="conteudo" id="sobre-mim">
+            <div class="conteudo__hexagono">
+                <img class="hexagono__imagem" src="/imagens/hanna-imagem.png" alt="Foto de Hanna">
+            </div>
+            <h1 class="conteudo__titulo"> Desenvolvedora <br> <span class="conteudo__titulo-roxo">Front-End</span></h1>
+            <div class="conteudo__contato">
+                <a class="contato__link" href="https://github.com/hannagabyy"><img class="contato__item" src="/imagens/github-icone.svg"
+                        alt="ícone do github"></a>
+                <a class="contato__link" href="https://www.linkedin.com/in/hannagsantos/"><img class="contato__item" src="/imagens/linkedin-icone.svg"
+                        alt="ícone do Linkedin"></a>
+            </div>
+            <article class="conteudo__resumo">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s
+                </p>
+                
+            </article>
+            
+            <div class="habilidades" id="habilidades">
+                    <h2 class="titulo__habilidades" >Habilidades</h2>
+                    <ul class="lista-habilidades_avancado">
+                        <li class="lista-habilidades__titulo">Avançado</li>
+                        <div class="display__flex">
+                            <li class="lista-habilidades__item"><img src="./imagens/html-icone.svg" alt="ícone html5"></li>
+                            <li class="lista-habilidades__item"><img src="./imagens/css-icone.svg" alt="ícone css3"></li>  
+                         </div> 
+                    </ul>
+                    
+                    <ul class="lista-habilidades_intermediario">
+                        <li class="lista-habilidades__titulo">Intermediário</li>
+                        <div class="display__flex">
+                            <li class="lista-habilidades__item"><img src="./imagens/javascript-icone.svg" alt="ícone javascript"></li>
+                            <li class="lista-habilidades__item"><img src="./imagens/bootstrap-icone.svg" alt="ícone boostrap"></li>
+                            <li class="lista-habilidades__item"><img src="./imagens/python-icone.svg" alt="ícone python"></li>
+                            <li class="lista-habilidades__item"><img src="./imagens/django-icone.svg" alt="ícone django"></li>
+                            <li class="lista-habilidades__item"><img src="./imagens/mysql-icone.svg" alt="ícone mysql"></li>
+                        </div>
+                    </ul>
+                    <ul class="lista-habilidades_basico">
+                        <li class="lista-habilidades__titulo">Básico</li>
+                        <div class="display__flex">
+                            <li class="lista-habilidades__item"><img src="./imagens/react-icone.svg" alt="ícone react"></li>
+                            <li class="lista-habilidades__item"><img src="./imagens/typescript-icone.svg" alt="ícone typescript"></li>
+                        </div>
+                    </ul>
+                
+
+            </div>
+
+        </section>
+    </main>
+
+    <script src="/scripts/header.js"></script>
 </body>
 
 </html>

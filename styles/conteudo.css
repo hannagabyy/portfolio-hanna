@@ -1,0 +1,27 @@
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo__titulo{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 2rem;
+}
+.conteudo__titulo-roxo{
+    color:var(--cor-roxa);
+}
+.conteudo__contato{
+    margin-bottom: 2rem;
+}
+.contato__link{
+    margin: 2rem;
+}
+.conteudo__resumo{
+    padding: 2rem;
+}
+.conteudo__resumo p {
+    line-height: 2rem;
+    text-align: center;
+}

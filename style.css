@@ -1,12 +1,17 @@
 @import url('./styles/header.css');
+@import url('./styles/conteudo.css');
+@import url('./styles/habilidades.css');
 :root{
     --cor-de-fundo : #25282A;
-    --cor-da-fundo : #CCCCCC;
+    --cor-da-fonte : #FFFFFF;
+    --cor-roxa:#8519DA;
     --fonte-principal: "Poppins";
 }
 body{
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal)!important;
+    color: var(--cor-da-fonte);
     font-size: 16px;
     font-weight: 400;
+    
 }
