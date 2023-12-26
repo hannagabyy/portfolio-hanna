@@ -25,3 +25,47 @@
     line-height: 2rem;
     text-align: center;
 }
+.conteudo__titulo-desktop{
+    display: none;
+}
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 1025px){
+    body{
+        overflow-x: hidden;
+    }
+    .alinhamento__desktop{
+        display: flex;
+        align-items: center;
+    
+    }
+    .conteudo__resumo p {
+        font-size: 1.2rem;
+        margin: 2rem;
+    }
+    
+    
+    .contato__link-nome:hover{
+        border-bottom: 2px solid white;
+    }
+    .conteudo__titulo{
+        display: none;
+    }
+    .conteudo__resumo h1{
+        display: block;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin: 2rem;
+    }
+    .conteudo__titulo-roxo{
+        margin-left: 1rem;
+    }
+    .contato__item{
+        width: 35px;
+    }
+}

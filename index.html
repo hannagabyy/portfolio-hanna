@@ -10,7 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-    <title>Portfolio - Hanna Santos</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./imagens/favicon-16x16.png">
+    <link rel="manifest" href="./imagens/site.webmanifest">
+    <title>Hanna Santos | Portfolio</title>
 </head>
 
 <body>
@@ -22,9 +26,20 @@
                 </a>
             </div>
         </div>
+        <ul class="menu-desktop">
+            <li class="lista-menu-item">
+                <a href="#sobre-mim" class="lista-menu__link">Sobre mim</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#habilidades" class="lista-menu__link">Habilidades</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#projetos" class="lista-menu__link">Projetos</a>
+            </li>
+        </ul>
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu" id="menu-label"  class="container__rotulo">
+            <label for="menu" id="menu-label" class="container__rotulo">
                 <span class="cabeçalho__menu-hamburguer container__imagem"></span>
             </label>
             <ul class="lista-menu">
@@ -46,56 +61,197 @@
 
     <main>
         <section class="conteudo" id="sobre-mim">
-            <div class="conteudo__hexagono">
-                <img class="hexagono__imagem" src="/imagens/hanna-imagem.png" alt="Foto de Hanna">
+            <div class="alinhamento__desktop">
+                <div class="alinhamento">
+                    <div class="conteudo__hexagono">
+                        <img class="hexagono__imagem" src="/imagens/hanna-imagem.png" alt="Foto de Hanna">
+                    </div>
+                    <h1 class="conteudo__titulo"> Desenvolvedora <br> <span
+                            class="conteudo__titulo-roxo">Front-End</span></h1>
+                    <div class="conteudo__contato">
+                        <a class="contato__link" href="https://github.com/hannagabyy">
+                            <img class="contato__item" src="/imagens/github-icone.svg" alt="ícone do github">
+                            <span class="contato__link-nome">Github</span>
+                        </a>
+                        <a class="contato__link" href="https://www.linkedin.com/in/hannagsantos/"><img
+                                class="contato__item" src="/imagens/linkedin-icone.svg" alt="ícone do Linkedin"><span
+                                class="contato__link-nome">Linkedin</span></a>
+                    </div>
+                </div>
+                <article class="conteudo__resumo">
+                    <h1 class="conteudo__titulo-desktop"> Desenvolvedora <span class="conteudo__titulo-roxo">
+                            Front-End</span></h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s
+                    </p>
+
+                </article>
             </div>
-            <h1 class="conteudo__titulo"> Desenvolvedora <br> <span class="conteudo__titulo-roxo">Front-End</span></h1>
-            <div class="conteudo__contato">
-                <a class="contato__link" href="https://github.com/hannagabyy"><img class="contato__item" src="/imagens/github-icone.svg"
-                        alt="ícone do github"></a>
-                <a class="contato__link" href="https://www.linkedin.com/in/hannagsantos/"><img class="contato__item" src="/imagens/linkedin-icone.svg"
-                        alt="ícone do Linkedin"></a>
+            <h2 class="titulos" id="habilidades">Habilidades</h2>
+            <div class="habilidades">
+                <ul class="lista-habilidades_avancado">
+                    <li class="lista-habilidades__titulo">Avançado</li>
+                    <div class="display__flex">
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/html-icone.svg" alt="ícone html5"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/css-icone.svg" alt="ícone css3"></li>
+                    </div>
+                </ul>
+
+                <ul class="lista-habilidades_intermediario">
+                    <li class="lista-habilidades__titulo">Intermediário</li>
+                    <div class="display__flex">
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/javascript-icone.svg" alt="ícone javascript"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/bootstrap-icone.svg" alt="ícone boostrap"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/python-icone.svg" alt="ícone python">
+                        </li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/django-icone.svg" alt="ícone django">
+                        </li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/mysql-icone.svg" alt="ícone mysql"></li>
+                    </div>
+                </ul>
+                <ul class="lista-habilidades_basico">
+                    <li class="lista-habilidades__titulo">Básico</li>
+                    <div class="display__flex">
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/react-icone.svg" alt="ícone react"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/typescript-icone.svg" alt="ícone typescript"></li>
+                    </div>
+                </ul>
+
             </div>
-            <article class="conteudo__resumo">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s
-                </p>
-                
-            </article>
-            
-            <div class="habilidades" id="habilidades">
-                    <h2 class="titulo__habilidades" >Habilidades</h2>
-                    <ul class="lista-habilidades_avancado">
-                        <li class="lista-habilidades__titulo">Avançado</li>
-                        <div class="display__flex">
-                            <li class="lista-habilidades__item"><img src="./imagens/html-icone.svg" alt="ícone html5"></li>
-                            <li class="lista-habilidades__item"><img src="./imagens/css-icone.svg" alt="ícone css3"></li>  
-                         </div> 
+            <h3 class="titulos">Projetos</h3>
+            <div class="projetos" id="projetos">
+                <div class="projeto">
+                    <h2 class="projeto__nome">AluraBooks</h2>
+                    <img class="projeto__gif" src="./gifs/alurabooks.gif" alt="GIF">
+                    <p class="projeto__descricao">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s
+                    </p>
+                    <ul class="display__flex">
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/react-icone.svg" alt="ícone react"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/javascript-icone.svg" alt="ícone javascript"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/html-icone.svg" alt="ícone html5"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/css-icone.svg" alt="ícone css3"></li>
                     </ul>
+                    <div class="botoes__projeto">
+                        <a class="botao__github" href="#"><img class="botao__icone" src="/imagens/github-icone.svg"
+                                alt="ícone do github"> Github</a>
+                        <a class="botao__noAr" href="#"><img class="botao__icone" src="/imagens/live-icon.svg"
+                                alt="ícone do projeto no ar">No ar</a>
+                    </div>
+
+                </div>
+
+                <div class="projeto">
+                    <h2 class="projeto__nome">AluraBooks</h2>
+                    <img class="projeto__gif" src="./gifs/alurabooks.gif" alt="GIF">
+                    <p class="projeto__descricao">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s
+                    </p>
+                    <ul class="display__flex">
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/react-icone.svg" alt="ícone react"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/javascript-icone.svg" alt="ícone javascript"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/html-icone.svg" alt="ícone html5"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/css-icone.svg" alt="ícone css3"></li>
+                    </ul>
+                    <div class="botoes__projeto">
+                        <a class="botao__github" href="#"><img class="botao__icone" src="/imagens/github-icone.svg"
+                                alt="ícone do github"> Github</a>
+                        <a class="botao__noAr" href="#"><img class="botao__icone" src="/imagens/live-icon.svg"
+                                alt="ícone do projeto no ar">No ar</a>
+                    </div>
+
+                </div>
+
+                <div class="projeto">
+                    <h2 class="projeto__nome">AluraBooks</h2>
+                    <img class="projeto__gif" src="./gifs/alurabooks.gif" alt="GIF">
+                    <p class="projeto__descricao">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s
+                    </p>
+                    <ul class="display__flex">
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/react-icone.svg" alt="ícone react"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/javascript-icone.svg" alt="ícone javascript"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/html-icone.svg" alt="ícone html5"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade"
+                                src="./imagens/css-icone.svg" alt="ícone css3"></li>
+                    </ul>
+                    <div class="botoes__projeto">
+                        <a class="botao__github" href="#"><img class="botao__icone" src="/imagens/github-icone.svg"
+                                alt="ícone do github"> Github</a>
+                        <a class="botao__noAr" href="#"><img class="botao__icone" src="/imagens/live-icon.svg"
+                                alt="ícone do projeto no ar">No ar</a>
+                    </div>
+
                     
-                    <ul class="lista-habilidades_intermediario">
-                        <li class="lista-habilidades__titulo">Intermediário</li>
-                        <div class="display__flex">
-                            <li class="lista-habilidades__item"><img src="./imagens/javascript-icone.svg" alt="ícone javascript"></li>
-                            <li class="lista-habilidades__item"><img src="./imagens/bootstrap-icone.svg" alt="ícone boostrap"></li>
-                            <li class="lista-habilidades__item"><img src="./imagens/python-icone.svg" alt="ícone python"></li>
-                            <li class="lista-habilidades__item"><img src="./imagens/django-icone.svg" alt="ícone django"></li>
-                            <li class="lista-habilidades__item"><img src="./imagens/mysql-icone.svg" alt="ícone mysql"></li>
-                        </div>
+
+                </div>
+
+                <div class="projeto">
+                    <h2 class="projeto__nome">AluraBooks</h2>
+                    <img class="projeto__gif" src="./gifs/alurabooks.gif" alt="GIF">
+                    <p class="projeto__descricao">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s
+                    </p>
+                    <ul class="display__flex">
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade" src="./imagens/react-icone.svg" alt="ícone react"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade" src="./imagens/javascript-icone.svg"
+                                alt="ícone javascript"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade" src="./imagens/html-icone.svg" alt="ícone html5"></li>
+                        <li class="lista-habilidades__item"><img class="imagem__habilidade" src="./imagens/css-icone.svg" alt="ícone css3"></li>
                     </ul>
-                    <ul class="lista-habilidades_basico">
-                        <li class="lista-habilidades__titulo">Básico</li>
-                        <div class="display__flex">
-                            <li class="lista-habilidades__item"><img src="./imagens/react-icone.svg" alt="ícone react"></li>
-                            <li class="lista-habilidades__item"><img src="./imagens/typescript-icone.svg" alt="ícone typescript"></li>
-                        </div>
-                    </ul>
-                
+                    <div class="botoes__projeto">
+                        <a class="botao__github" href="#"><img class="botao__icone" src="/imagens/github-icone.svg"
+                                alt="ícone do github"> Github</a>
+                        <a class="botao__noAr" href="#"><img class="botao__icone" src="/imagens/live-icon.svg"
+                                alt="ícone do projeto no ar">No ar</a>
+                    </div>
+
 
             </div>
-
         </section>
     </main>
 

@@ -1,10 +1,13 @@
 @import url('./styles/header.css');
 @import url('./styles/conteudo.css');
 @import url('./styles/habilidades.css');
+@import url('./styles/projetos.css');
 :root{
     --cor-de-fundo : #25282A;
     --cor-da-fonte : #FFFFFF;
     --cor-roxa:#8519DA;
+    --cor-roxo-escuro:#481371;
+    --cor-vermelha:#893E26;
     --fonte-principal: "Poppins";
 }
 body{

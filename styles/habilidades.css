@@ -2,14 +2,19 @@
    width: 100vw;
    text-align: center;
 }
-.titulo__habilidades{
+.titulos{
+    width: 100%;
+    text-align: center;
     font-size: 2rem;
     font-weight: 600;
+    border-radius: 4px;
+    padding: 12px;
     margin: 3rem 0;
-
+    background-color: var(--cor-roxa);
+   
 }
 .lista-habilidades__titulo{
-    background-color: var(--cor-roxa);
+    
     font-weight: 600;
     font-size: 1.5rem;
     border-radius: 4px;
@@ -25,6 +30,29 @@
     margin: auto 3rem;
 }
 .lista-habilidades__item{
+    width: 30px;
+    height: 30px;
     margin-right: 2rem;
     margin-bottom: 3rem;
+}
+@media screen and (min-width: 1025px){
+    .habilidades{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .display__flex{
+        flex-direction: row;
+    }
+    .lista-habilidades__item{
+        margin: 2rem;
+    }
+    .imagem__habilidade{
+       width: 60px;
+       height: 60px;
+       
+    }
+    .titulos{
+        width: 20%;
+        margin: 3rem;
+    }
 }
