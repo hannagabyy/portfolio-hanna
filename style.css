@@ -10,6 +10,9 @@
     --cor-vermelha:#893E26;
     --fonte-principal: "Poppins";
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal)!important;
